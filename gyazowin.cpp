@@ -3,12 +3,13 @@
 
 #include "stdafx.h"
 #include "gyazowin.h"
+using namespace std;
 
 // グローバル変数:
 HINSTANCE hInst;							// 現在のインターフェイス
-TCHAR *szTitle			= _T("Gyazo");		// タイトル バーのテキスト
-TCHAR *szWindowClass	= _T("GYAZOWIN");	// メイン ウィンドウ クラス名
-TCHAR *szWindowClassL	= _T("GYAZOWINL");	// レイヤー ウィンドウ クラス名
+TCHAR *szTitle			= _T("ScreenShottr");		// タイトル バーのテキスト
+TCHAR *szWindowClass	= _T("SCREENSHOTTRWIN");	// メイン ウィンドウ クラス名
+TCHAR *szWindowClassL	= _T("SCREENSHOTTRWINL");	// レイヤー ウィンドウ クラス名
 HWND hLayerWnd;
 
 int ofX, ofY;	// 画面オフセット
@@ -791,8 +792,8 @@ BOOL saveId(const WCHAR* str)
 // PNG ファイルをアップロードする.
 BOOL uploadFile(HWND hwnd, LPCTSTR fileName)
 {
-	const TCHAR* UPLOAD_SERVER	= _T("thecjgcjg.com");
-	const TCHAR* UPLOAD_PATH	= _T("/imagehost/gzo/upload.php");
+	const TCHAR* UPLOAD_SERVER	= _T("screenshottr.com");
+	const TCHAR* UPLOAD_PATH	= _T("/upload.php?encrypt=true");
 
 	const char*  sBoundary = "----BOUNDARYBOUNDARY----";		// boundary
 	const char   sCrLf[]   = { 0xd, 0xa, 0x0 };					// 改行(CR+LF)
