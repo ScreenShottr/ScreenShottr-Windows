@@ -793,7 +793,7 @@ BOOL saveId(const WCHAR* str)
 BOOL uploadFile(HWND hwnd, LPCTSTR fileName)
 {
 	const TCHAR* UPLOAD_SERVER	= _T("screenshottr.com");
-	const TCHAR* UPLOAD_PATH	= _T("/upload.php?encrypt=true");
+	const TCHAR* UPLOAD_PATH	= _T("/upload.php");
 
 	const char*  sBoundary = "----BOUNDARYBOUNDARY----";		// boundary
 	const char   sCrLf[]   = { 0xd, 0xa, 0x0 };					// â¸çs(CR+LF)

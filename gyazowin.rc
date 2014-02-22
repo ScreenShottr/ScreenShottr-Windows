@@ -82,13 +82,13 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "Comments",         ""
-            VALUE "CompanyName",      ""
-			VALUE "FileDescription",  "Gyazo: Screen Uploader"
+            VALUE "CompanyName",      "ScreenShottr"
+			VALUE "FileDescription",  "ScreenShottr: Screen Uploader"
             VALUE "FileVersion",      VER_FILEVERSION_STR
-            VALUE "InternalName",     "Gyazo"
-            VALUE "OriginalFileName", "Gyazo.exe"
-            VALUE "LegalCopyright",   "(c) Toshiyuki Masui"
-            VALUE "ProductName",      "Gyazo"
+            VALUE "InternalName",     "ScreenShottr"
+            VALUE "OriginalFileName", "ScreenShottr.exe"
+            VALUE "LegalCopyright",   "(c) ScreenShottr"
+            VALUE "ProductName",      "ScreenShottr"
             VALUE "ProductVersion",   VER_PRODUCTVERSION_STR
         END
     END
