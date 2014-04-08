@@ -947,7 +947,7 @@ BOOL uploadFile(HWND hwnd, LPCTSTR fileName)
 		}
 	} else {
 		// �A�b�v���[�h���s...
-		MessageBox(hwnd, _T("Failed to upload"), szTitle, MB_ICONERROR | MB_OK);
+		MessageBox(hwnd, _T("Failed to upload - Unkown Error (Check your internet speed)"), szTitle, MB_ICONERROR | MB_OK);
 	}
 
 	return FALSE;
